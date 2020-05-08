@@ -1,13 +1,15 @@
 import * as Sentry from "@sentry/browser";
 
 const isLocal = process.env.NODE_ENV === "development";
+//const isLocal = false;
 
 export function initSentry() {
   if (isLocal) {
     return;
   }
 
-  Sentry.init({ dsn: "https://5f83aa2e21064e47bab8a1f308f940eb@sentry.io/5185720" });
+  Sentry.init({dsn: 
+"https://a503cb52f3c54ce6a98b6497c859ebfb@o389533.ingest.sentry.io/5227824"});
 }
 
 export function logError(error, errorInfo = null) {

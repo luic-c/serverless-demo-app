@@ -1,5 +1,5 @@
 const dev = {
-  STRIPE_KEY: "YOUR_STRIPE_DEV_PUBLIC_KEY",
+  STRIPE_KEY: "pk_test_gROGRPKW50qPNSxZm8xqhLOE00cUTFPEed",
   s3: {
     REGION: "us-east-2",
     BUCKET: "serverless-note-demo-bucket"
@@ -17,7 +17,7 @@ const dev = {
 };
 
 const prod = {
-  STRIPE_KEY: "YOUR_STRIPE_PROD_PUBLIC_KEY",
+  STRIPE_KEY: "pk_test_gROGRPKW50qPNSxZm8xqhLOE00cUTFPEed",
   s3: {
     REGION: "us-east-2",
     BUCKET: "serverless-note-demo-bucket"
